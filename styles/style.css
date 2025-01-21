@@ -82,11 +82,13 @@ nav ul li{
 
 
 /* Main section */
+
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
   }
+/* Piller section */
 .piller{
     margin-left: 160px;
     margin-right: 160px;
@@ -114,3 +116,79 @@ nav ul li{
     color: rgba(14, 14, 14, 0.7);
 
 }
+
+
+
+
+/* vision section */
+.vision{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+.vision-title{
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+}
+.vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+.vision-container{
+    display: flex;
+    gap: 24px;
+
+}
+.card{
+    padding: 24px;
+    border-radius: 24px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25)
+}
+.card-title{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.card-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.primary-btn{
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.speech-part{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 48px 24px;
+    
+
+}
+.speech-container{
+    font-size: 16;
+    color: rgba(14, 14, 14, 0.8);
+}
+.speech-bg{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.speech-heading{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.speech-position{
+    font-size: 16px;
+    color : rgba(14, 14, 14, 0.6)
+}
+
+
